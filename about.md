@@ -1,18 +1,16 @@
 ---
-title: Colophon
+title: Sobre mim
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Sou engenheiro de software, geek, otaku e gamer, formado em Analise e Desenvolvimento de Sistemas pelo Instituto Paulista de Ensino e Pesquisa
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Sou engenheiro de software, geek, otaku e gamer, formado em Analise e Desenvolvimento de Sistemas pelo [Instituto Paulista de Ensino e Pesquisa](http://www.ipep.com.br/site/), tenho 35 anos, moro em São Paulo, Capital.
 
-If you have a question about him or else, just send a letter to him.
+Se por caso algum link estiver quebrado, por favor, [reporte o problema no repositório do site no github](https://github.com/rafaelmartines/rafaelmartines.github.io/issues).
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+**Como entrar em contato ✨**
 
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- [{{ site.author.email }}](mailto:{{ site.author.email }})
+- [http://github.com/{{ site.author.github }}](http://github.com/{{ site.author.github }})
