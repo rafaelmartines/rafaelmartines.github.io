@@ -1,0 +1,146 @@
+<div class="navbar" role="navigation">
+  <nav class="menu">
+    <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+    <label for="menu-trigger">
+      <span class="menu-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+          <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+        </svg>
+      </span>
+    </label>
+    <a id="mode">
+      <svg class="mode-sunny" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+        <title>LIGHT</title>
+        <line x1="256" y1="48" x2="256" y2="96" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="256" y1="416" x2="256" y2="464" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="403.08" y1="108.92" x2="369.14" y2="142.86"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="142.86" y1="369.14" x2="108.92" y2="403.08"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="464" y1="256" x2="416" y2="256" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="96" y1="256" x2="48" y2="256" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="403.08" y1="403.08" x2="369.14" y2="369.14"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="142.86" y1="142.86" x2="108.92" y2="108.92"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <circle cx="256" cy="256" r="80" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+      </svg>
+      <svg class="mode-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+        <title>DARK</title>
+        <line x1="256" y1="48" x2="256" y2="96" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="256" y1="416" x2="256" y2="464" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="403.08" y1="108.92" x2="369.14" y2="142.86"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="142.86" y1="369.14" x2="108.92" y2="403.08"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="464" y1="256" x2="416" y2="256" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="96" y1="256" x2="48" y2="256" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="403.08" y1="403.08" x2="369.14" y2="369.14"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <line x1="142.86" y1="142.86" x2="108.92" y2="108.92"
+          style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+        <circle cx="256" cy="256" r="80" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px" />
+      </svg>
+    </a>
+    <div class="trigger">
+      <div class="trigger-container">
+        {%- assign url = page.url -%}
+        {%- assign menus = site.data.menus -%}
+        {%- if menus %}
+        {%- for menu in menus -%}
+        {%- if url == menu.url -%}
+        <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+        {%- else -%}
+        {%- if menu.external -%}
+        <a class="menu-link" href="{{ menu.url }}" target="_blank" rel="noopener">{{ menu.title }}</a>
+        {%- else -%}
+        <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- else -%}
+        <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
+        <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
+        {%- endif -%}
+        <a class="menu-link rss" href="/feed.xml">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+            <g fill="#626262">
+              <path
+                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0a8 8 0 0 0-8-8a1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6a1 1 0 1 1-2 0a4 4 0 0 0-4-4a1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3z" />
+            </g>
+            <rect x="0" y="0" width="16" height="16" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+        <a class="menu-link rss" href="//www.linkedin.com/in/rafael-a-s-martines/" target="_blank">
+          <title>Linkedin</title>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
+            <path
+              d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4zM7.65 13.979H5.706V7.723H7.65v6.256zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973zm8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699v3.699z"
+              fill="#626262" />
+            <rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+        <a class="menu-link rss" href="//facebook.com/rafael.martines.9" target="_blank">
+          <title>Facebook</title>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <g fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 12.067C0 18.033 4.333 22.994 10 24v-8.667H7V12h3V9.333c0-3 1.933-4.666 4.667-4.666c.866 0 1.8.133 2.666.266V8H15.8c-1.467 0-1.8.733-1.8 1.667V12h3.2l-.533 3.333H14V24c5.667-1.006 10-5.966 10-11.933C24 5.43 18.6 0 12 0S0 5.43 0 12.067z"
+                fill="#626262" />
+            </g>
+            <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+        <a class="menu-link rss" href="//twitter.com/rafaelmartines" target="_blank">
+          <title>Twitter</title>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <g fill="none">
+              <path
+                d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003z"
+                fill="#626262" />
+            </g>
+            <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+        <a class="menu-link rss" href="//www.youtube.com/channel/UCfkQbJsN-DqRO4FRJ3j_Aeg" target="_blank">
+          <title>Youtube</title>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+            <path
+              d="M941.3 296.1a112.3 112.3 0 0 0-79.2-79.3C792.2 198 512 198 512 198s-280.2 0-350.1 18.7A112.12 112.12 0 0 0 82.7 296C64 366 64 512 64 512s0 146 18.7 215.9c10.3 38.6 40.7 69 79.2 79.3C231.8 826 512 826 512 826s280.2 0 350.1-18.8c38.6-10.3 68.9-40.7 79.2-79.3C960 658 960 512 960 512s0-146-18.7-215.9zM423 646V378l232 133l-232 135z"
+              fill="#626262" />
+            <rect x="0" y="0" width="1024" height="1024" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+        <a class="menu-link rss" href="//www.twitch.tv/rafael_martines" target="_blank">
+          <title>Twitch</title>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="1em" height="1em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <g fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M2.547 1L1 4.776v15.433h5.5V23h3.093l2.922-2.791h4.47L23 14.462V1H2.547zm18.39 12.478l-3.438 3.283H12l-2.922 2.791v-2.79h-4.64V2.97h16.499v10.508zm-3.438-6.731v5.74h-2.062v-5.74H17.5zm-5.499 0v5.74H9.938v-5.74H12z"
+                fill="#626262" />
+            </g>
+            <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
