@@ -6,6 +6,6 @@ excerpt: Thanks to amazing people that i met, who help me out from follishness, 
 comments: false
 ---
 
-Agradeço imensamente a pessoas que contribuiram muito para o meu crescimento profissional/*hardskills* e pessoal/*softskills* nesses anos como engenheiro de software. Não preciso mencionar nomes porque:
+Agradeço imensamente a pessoas que contribuiram muito para o meu crescimento profissional e pessoal nesses anos como engenheiro de software. Não preciso mencionar nomes porque:
 
 > Quem é de verdade, sabe quem é de mentira.

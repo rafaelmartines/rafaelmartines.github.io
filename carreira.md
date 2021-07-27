@@ -50,6 +50,12 @@ Enquanto trabalhava na Longevo, surgiu a oportunidade de tentar ~~mais uma vez~~
 
 ## 2018 até hoje
 
-Dentro do PRAVALER, junto com minha atual equipe estamos aos poucos migrando módulos do sistema legado e criando microsserviços, desde módulo de avaliação de crédito até módulo de negativação, ~~que negativa e desnegativa os clientes~~ por exemplo.
+Dentro do PRAVALER, minhas atividades iniciais constituiam em além de fazer manutenção no sistema legado, garantir o suporte a novos modelos de financimento dentro do sistema, desde a escolha do novo modelo pela Instituição de Ensino até a geração de contrato para que u alune assine.
+
+Depois do "marco" da área de tecnologia no PRAVALER, que foi logo após a mudança de marca, houve mudanças nos times de tecnologia e surgiu a oportunidade para fazer parte da equipe que cuida da avaliação de crédito, que é uma área que me despertou e ainda desperta interesse, principalmente relacionado a todas as variáveis que possibilitam ou não ofertar um modelo de financiamento para o alune, então conseguimos aos poucos remover esses módulos de avaliação do sistema legado e migrar para tecnologia e lógicas mais atuais.
+
+Com a criação do cargo de CTO na empresa, começou a acontecer adesão do [Elixir](https://elixir-lang.org/) e tenho gostado bastante, o único desafio atualmente é a curva de aprendizado, esperada quando se sai do PHP para uma nova linguagem que te obriga a pensar de uma forma totalmente diferente de como você programava até então.
+
+E por último, mas não menos importante, nesse meio tempo, meu squad se fundiou com a equipe que cuida da área de cobrança, que envolve negativações, acordo de dívidas, etc. E nesse momento estou vivenciando aparentemente o que posso chamar de terceiro grande marco na minha carreira, com tantas cobranças e mudanças de postura em relação a *hardskills* e *softskills*, que já está rendendo frutos.
 
 ## Continua...
