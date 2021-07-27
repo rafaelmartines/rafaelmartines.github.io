@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: rafaelmartines.github.io
-Token: 5827a2b354d1cad941229a38cdfd2d9fa9a1fcaacc7adb3193c0f444cdd24798
