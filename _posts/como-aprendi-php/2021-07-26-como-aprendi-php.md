@@ -25,7 +25,7 @@ Mas eu ficava inconformado de como os sites de animes conseguiam ser tão bonito
 </figure>
 
 <figure>
-    <img src="/como-aprendi-php/kdan.jpeg" alt="Kdan">
+    <img src="/como-aprendi-php/kdan.jpg" alt="Kdan">
     <figcaption>Kdan</figcaption>
 </figure>
 
