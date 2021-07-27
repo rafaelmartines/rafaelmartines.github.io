@@ -10,7 +10,10 @@ Quando a internet surgiu, teve um *boom* de sites voltados para animes, os sites
 
 Minha primeira experiência criando site foi usando o Microsoft Front Page, lembra dele?
 
-![Microsoft Front Page](/como-aprendi-php/front-page.png)
+<figure>
+<img src="/como-aprendi-php/front-page.png" alt="Microsoft Front Page">
+<figcaption>Microsoft Front Page</figcaption>
+</figure>
 
 Dai era aquela coisa esperada de iniciante, certo? três iframes, um para o menu, outro para o cabeçalho e o outro para o conteúdo principal e ainda usando aqueles botões que o Front Page criava.
 
