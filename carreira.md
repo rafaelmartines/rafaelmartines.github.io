@@ -56,6 +56,6 @@ Depois do "marco" da área de tecnologia no PRAVALER, que foi logo após a mudan
 
 Com a criação do cargo de CTO na empresa, começou a acontecer adesão do [Elixir](https://elixir-lang.org/) e tenho gostado bastante, o único desafio atualmente é a curva de aprendizado, esperada quando se sai do PHP para uma nova linguagem que te obriga a pensar de uma forma totalmente diferente de como você programava até então.
 
-E por último, mas não menos importante, nesse meio tempo, meu squad se fundiou com a equipe que cuida da área de cobrança, que envolve negativações, acordo de dívidas, etc. E nesse momento estou vivenciando aparentemente o que posso chamar de terceiro grande marco na minha carreira, com tantas cobranças e mudanças de postura em relação a *hardskills* e *softskills*, que já está rendendo frutos.
+E por último, mas não menos importante, nesse meio tempo, meu squad se fundiu com a equipe que cuida da área de cobrança, que envolve negativações, acordo de dívidas, etc. E nesse momento estou vivenciando aparentemente o que posso chamar de terceiro grande marco na minha carreira, com tantas cobranças e mudanças de postura em relação a *hardskills* e *softskills*, que já está rendendo frutos.
 
 ## Continua...
