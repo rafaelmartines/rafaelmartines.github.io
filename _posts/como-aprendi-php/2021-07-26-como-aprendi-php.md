@@ -11,17 +11,23 @@ Quando a internet surgiu, teve um *boom* de sites voltados para animes, os sites
 Minha primeira experiência criando site foi usando o Microsoft Front Page, lembra dele?
 
 <figure>
-<img src="/como-aprendi-php/front-page.png" alt="Microsoft Front Page">
-<figcaption>Microsoft Front Page</figcaption>
+    <img src="/como-aprendi-php/front-page.png" alt="Microsoft Front Page">
+    <figcaption>Microsoft Front Page</figcaption>
 </figure>
 
 Dai era aquela coisa esperada de iniciante, certo? três iframes, um para o menu, outro para o cabeçalho e o outro para o conteúdo principal e ainda usando aqueles botões que o Front Page criava.
 
 Mas eu ficava inconformado de como os sites de animes conseguiam ser tão bonitos sem usar a tag `iframe`, dai alguns desses sites tinham uma área de tutoriais e neles normalmente apareciam dois tutoriais que me chamavam atenção, um de como inserir páginas usando SHTML e o outro de como fazer include em PHP.
 
-![Anime Total](/como-aprendi-php/anime-total.jpeg)
+<figure>
+    <img src="/como-aprendi-php/anime-total.jpeg" alt="Microsoft Front Page">
+    <figcaption>Anime Total</figcaption>
+</figure>
 
-![Kdan](/como-aprendi-php/kdan.jpg)
+<figure>
+    <img src="/como-aprendi-php/kdan.jpeg" alt="Microsoft Front Page">
+    <figcaption>Kdan</figcaption>
+</figure>
 
 Dai então comecei a me interessar e entender a primeira das coisas mais básicas do PHP que é fazer include de outros arquivos, assim facilitando a reciclagem de código, sem precisar ficar repetindo o menu e o cabeçalho por todas as páginas.
 
