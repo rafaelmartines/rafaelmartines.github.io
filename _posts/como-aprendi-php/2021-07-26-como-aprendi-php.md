@@ -20,12 +20,12 @@ Dai era aquela coisa esperada de iniciante, certo? três iframes, um para o menu
 Mas eu ficava inconformado de como os sites de animes conseguiam ser tão bonitos sem usar a tag `iframe`, dai alguns desses sites tinham uma área de tutoriais e neles normalmente apareciam dois tutoriais que me chamavam atenção, um de como inserir páginas usando SHTML e o outro de como fazer include em PHP.
 
 <figure>
-    <img src="/como-aprendi-php/anime-total.jpeg" alt="Microsoft Front Page">
+    <img src="/como-aprendi-php/anime-total.jpeg" alt="Anime Total">
     <figcaption>Anime Total</figcaption>
 </figure>
 
 <figure>
-    <img src="/como-aprendi-php/kdan.jpeg" alt="Microsoft Front Page">
+    <img src="/como-aprendi-php/kdan.jpeg" alt="Kdan">
     <figcaption>Kdan</figcaption>
 </figure>
 
