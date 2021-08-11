@@ -1,7 +1,11 @@
-# Como instalar?
+# O que é necessário para instalar?
 
-Basta seguir os [passos de instalação do Jekyll](https://jekyllrb.com/docs/) e então no shell digitar o comando:
-
-```sh
-bundle exec jekyll serve
-```
+* Seguir os [passos de instalação do Jekyll](https://jekyllrb.com/docs/)
+* Instalar o bundle do jekyll
+    ```sh
+    sudo bundle install
+    ```
+* Iniciar o servidor   
+    ```sh
+    bundle exec jekyll serve
+    ```
