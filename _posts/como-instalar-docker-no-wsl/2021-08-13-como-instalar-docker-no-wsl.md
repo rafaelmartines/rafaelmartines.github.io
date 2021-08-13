@@ -6,9 +6,9 @@ tags: [windows, docker, wsl]
 description: Durante as minhas férias, decidi parar de usar meu desktop pessoal para fazer coisas relacionadas ao meu trabalho
 ---
 
-Durante as minhas férias, decidi parar de usar meu desktop pessoal para fazer coisas relacionadas ao meu trabalho, porque eu achava mais prático e obviamente meu PC pessoal, como a maioria dos desenvolvedores, é muito melhor que os laptops ou notebooks, outro motivo também é por causa da [LGPD](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/Lei/L13709.htm) que está começando a ser um assunto forte onde trabalho, ter dados sensíveis dos clientes no meu desktop pessoal não seria legal, então a decisão foi também tomada para evitar dores de cabeças futuras.
+Durante as minhas férias, decidi parar de usar meu desktop pessoal para fazer coisas relacionadas ao meu trabalho, porque eu achava mais prático e obviamente meu PC pessoal, como da maioria dos desenvolvedores, é muito melhor que os laptops ou notebooks forcenidos por nossos empregadores, outro motivo também é por causa da [LGPD](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/Lei/L13709.htm) que está começando a ser um assunto forte onde trabalho, ter dados sensíveis dos clientes no meu desktop pessoal não seria legal, então a decisão foi também tomada para evitar dores de cabeças futuras.
 
-A partir dai, decidi voltar a usar Windows, porém, também tenho algumas projetos de estudo e também este blog para ir atualizando e não estava afim de fazer um dual boot com Linux. Qual seria a solução? Usar [WSL, também conhecido como Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/).
+A partir dai, decidi voltar a usar o Windows, porém, também tenho alguns projetos de estudo, além também este blog para ir atualizando e não estava afim de fazer um dual boot com Linux. Qual seria a solução? Usar [WSL, também conhecido como Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/).
 
 Depois de escolher a distribuição, entrei no terminal do Linux, e fiz a instalação do docker como de praxe.
 
