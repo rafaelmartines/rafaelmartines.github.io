@@ -1,11 +1,20 @@
 # O que é necessário para instalar?
 
-* Seguir os [passos de instalação do Jekyll](https://jekyllrb.com/docs/)
-* Instalar o bundle do jekyll
+* Instalar o docker e o docker-compose:
+    ## Ubuntu
     ```sh
-    sudo bundle install
+    sudo apt install docker.io docker-compose
     ```
-* Iniciar o servidor   
+
+* Subir o container:
     ```sh
-    bundle exec jekyll serve
+    docker-compose up -d
+    ```
+* Entrar no container:
+    ```sh
+    docker exec -it jekyll /bin/sh
+    ```
+* Subir o jekyll com o comando:
+    ```sh
+    bundle exec jekyll serve --host=0.0.0.0
     ```

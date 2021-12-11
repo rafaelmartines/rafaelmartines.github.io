@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  jekyll:
+    container_name: jekyll
+    tty: true
+    volumes:
+      - ./:/app
+    build: .
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
