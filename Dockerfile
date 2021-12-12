@@ -12,5 +12,3 @@ COPY . .
 RUN BUNDLE_GEMFILE=/app/Gemfile bundle install
 
 EXPOSE 4000
-
-# RUN bundle exec jekyll serve
