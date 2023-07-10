@@ -48,14 +48,22 @@ A Longevo infelizmente acabou encerrando as suas atividades em São Paulo e o pr
 
 Enquanto trabalhava na Longevo, surgiu a oportunidade de tentar ~~mais uma vez~~ entrar na [Just Digital](https://justdigital.com.br/) (sete meses e dezesseis dias) ou Just 💁 como preferir. Aqui comecei a dar os primeiros passos com [Drupal](https://www.drupal.org/), principal ferramenta da empresa, inclusive tenho até [um certificado de um curso que fiz na Acquia](https://drive.google.com/file/d/0By65WrH4cV36TGRwWjRaMkxpN28/view?resourcekey=0-1g6RZ1EB3rrwMS0eSa7mkQ), mas acabei então sendo alocado para trabalhar na [Ideal Invest](https://www.pravaler.com.br/) como "consultor da Just" para dar manutenção no sistema legado da empresa, então trabalhei entre 2017 e 2018 como consultor até surgir a oportunidade de ingressar oficialmente no quadro de funcionários da Ideal Invest, hoje conhecida como PRAVALER.
 
-## 2018 até hoje
+## 2018
 
 Dentro do PRAVALER, minhas atividades iniciais constituiam em além de fazer manutenção no sistema legado, garantir o suporte a novos modelos de financimento dentro do sistema, desde a escolha do novo modelo pela Instituição de Ensino até a geração de contrato para que u alune assine.
 
-Depois do "marco" da área de tecnologia no PRAVALER, que foi logo após a mudança de marca, houve mudanças nos times de tecnologia e surgiu a oportunidade para fazer parte da equipe que cuida da avaliação de crédito, que é uma área que me despertou e ainda desperta interesse, principalmente relacionado a todas as variáveis que possibilitam ou não ofertar um modelo de financiamento para o alune, então conseguimos aos poucos remover esses módulos de avaliação do sistema legado e migrar para tecnologia e lógicas mais atuais.
+Depois do "marco" da área de tecnologia no PRAVALER, que foi logo após a mudança de marca, houve mudanças nos times de tecnologia e surgiu a oportunidade para fazer parte da equipe que cuida da avaliação de crédito, que é uma área que me despertou e ainda desperta interesse, principalmente relacionado a todas as variáveis que possibilitam ou não ofertar um modelo de financiamento para u alune, então conseguimos aos poucos remover esses módulos do sistema legado e migrar para para um arquitetura de Micros
 
 Com a criação do cargo de CTO na empresa, começou a acontecer adesão do [Elixir](https://elixir-lang.org/) e tenho gostado bastante, o único desafio atualmente é a curva de aprendizado, esperada quando se sai do PHP para uma nova linguagem que te obriga a pensar de uma forma totalmente diferente de como você programava até então.
 
 E por último, mas não menos importante, nesse meio tempo, meu squad se fundiu com a equipe que cuida da área de cobrança, que envolve negativações, acordo de dívidas, etc. E nesse momento estou vivenciando aparentemente o que posso chamar de terceiro grande marco na minha carreira, com tantas cobranças e mudanças de postura em relação a *hardskills* e *softskills*, que já está rendendo frutos.
 
-## Continua...
+Com um novo CTO no cargo e com o intuito de ter mais chances de atrair talentos no mercado, o NodeJS começou a fazer parte das stacks da empresa e o Elixir entrou para as stacks de categoria manutenção, onde o foco das novas aplicações é usarem o framework NestJS para confeccionar novas soluções, estudei a nova linguagem e comecei a já colocar em prática os estudos participando da nova fase de arquitetura de microserviços para a ferramenta de avaliação de crédito.
+
+Devido a integração de um sistema interno com uma ferramenta de empresa parceira, comecei a ter os primeiros contatos com Java e realmente gostei da linguagem, tirando um pouco do mito em torno dela que muitos programadores "Não Java" tem em relação a ela.
+
+Mas toda história tem um fim, parafraseando muitos posts no Linkedin: "Um ciclo se encerrou" e num layoff silencioso, sofri um "desligamento involuntário" em Maio de 2023.
+
+## 2023 até o momento
+
+Aproveitando esse tempo estudando Java, Spring Boot, JPA, Maven e lapidando meus conceitos de programação para estar preparado para o próximo desafio.
