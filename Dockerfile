@@ -1,7 +1,7 @@
 FROM alpine:3.15.0
 
 RUN apk update \
-    && apk add gcc g++ make ruby-full ruby-dev \
+    && apk add gcc g++ make libffi-dev ruby-full ruby-dev \
     && gem install jekyll bundler \
     && mkdir app
 
