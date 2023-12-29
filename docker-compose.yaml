@@ -3,6 +3,7 @@ version: "3"
 services:
   jekyll:
     container_name: jekyll
+    platform: linux/amd64
     tty: true
     volumes:
       - ./:/app
