@@ -66,6 +66,16 @@ Devido a integração de um sistema interno com uma ferramenta de empresa parcei
 
 Mas toda história tem um fim, parafraseando muitos posts no Linkedin: "Um ciclo se encerrou" e num layoff silencioso, sofri um "desligamento involuntário" em Maio de 2023.
 
-## 2023 até o momento
+## 2023
 
-Aproveitando esse tempo estudando Java, Spring Boot, JPA, Maven e lapidando meus conceitos de programação para estar preparado para o próximo desafio.
+Este ano foi um ano atípico, quando encerrei meu contrato com no começo do ano decidi me dar uns meses de férias aproveitando o seguro desemprego e no meio tempo mandando currículo e ir analisando as oportunidades, conforme vai passando o tempo, além de vários absurdos que escuto, escutar de recrutador frases como "Você entende mais de PHP do que de backend...", tentar entrar três vezes em uma empresa na primeira vez, por não ter experiência em Java, na segunda vez por indicação, congelaram as vagas e na terceira vez com acabaram fazendo uma proposta muito menor do que eu ganhava em outra empresa e isso realmente acaba com a auto-estima de qualquer um.
+
+Eis que surge a oportunidade de ingressar no SENAC, qualquer um hoje dia conhece esse nome e eu pensei "Cara como eu queria entrar no SENAC, ter um nome assim muito conhecido no meu Currículo, seria massa de mais", acabo fazendo uma dinâmica de grupo onde os candidatos que estava ali concorrendo eram muito bons que eu realmente fiquei até com a pressão baixa conforme eles iam falando as capacidades e experiências deles, então respirei fundo, e pensei comigo "Hora de Aparecer", terminei a dinâmica suando quando recebo a notícia de que fui aprovado para a próxima fase, segunda fase aos "trancos e barrancos" consegui fazer propaganda de minha pessoa, mesmo com o Teams caindo e até mesmo depois quando a responsável pela dinâmica que trabalha no RH me ligou, a ligação acabou caindo e então anciosamente calmo 🤣 aguardei a tão sonhada proposta que eu queria pra ingressar no SENAC.
+
+Muito mais importante do que entrar em empresa com esse nome de peso, os novos detalhes foram os que mais me chamaram a atenção, entrei como cargo Senior, um upgrade do meu ultimo cargo e trabalhando com um ferramenta profissional diferente do PHP, Adobe Coldfusione ta sendo uma experiencia revigorante, o PHP ainda continua morando no meu coração, já que foi meu ganho pão por muito tempo, mas chegou a hora de avançar nos conhecimentos, usando a experiência programando no elefantinho e conseguir superar os novos desafios, como já tem sido desde que entrei dia dois de outubro, mês do meu aniversário e que presente.
+
+## 2024 até o momento
+
+Meu desejo pra esse ano é conseguir fazer a minha pós, ainda indeciso se faço em Inteligência Artificial ou Automação de Gestão de Projetos, mas isso.
+
+Feliz 2024 🍾
