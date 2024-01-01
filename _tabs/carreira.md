@@ -4,6 +4,8 @@ permalink: /carreira/
 layout: page
 excerpt: Meu primeiro emprego com carteira assinada foi na HWN Solutions, na época uma softhouse onde atuava confeccionando sites sob demanda.
 comments: false
+icon: fa-solid fa-briefcase
+order: 1
 ---
 
 ## Antes de 2006
