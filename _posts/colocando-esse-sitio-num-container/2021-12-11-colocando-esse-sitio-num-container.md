@@ -1,9 +1,10 @@
 ---
 title: Colocando esse sítio num container 🐳
 date: 2021-12-11 21:50:00 -03:00
-modified: 2021-12-12 20:44:00 -03:00
 tags: [docker, site, alpine, compose]
+categories: [Docker]
 description: Não mexo nesse sítio desde quando eu migrei para Windows 10 e agora no Windows 11.
+
 ---
 
 Não mexo nesse sítio desde quando eu migrei para Windows 10 e agora no Windows 11, então a primeira coisa que fiz, foi procurar uma imagem correta, pensei, "bom, o Jekyll é feito com Ruby" então, fui lá e tentei subir um container, aconteceu o problema do container ficar reiniciando, na segunda tentativa, descobri que tem um docker do Jekyll, então tentei subir o container novamente, mesmo erro de reinicialização, por fim decidi montar do zero, peguei uma imagem do alpine que é super leve e montei o Dockerfile assim:

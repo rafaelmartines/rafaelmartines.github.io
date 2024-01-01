@@ -1,8 +1,8 @@
 ---
 title: Como instalar docker no WSL
 date: 2021-08-13 13:41:00 -03:00
-modified: 2021-08-13 13:41:00 -03:00
 tags: [windows, docker, wsl]
+categories: [Windows, WSL]
 description: Durante as minhas férias, decidi parar de usar meu desktop pessoal para fazer coisas relacionadas ao meu trabalho
 ---
 

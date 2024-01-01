@@ -1,8 +1,8 @@
 ---
 title: Instalando Robot 3T no Linux
 date: 2021-08-26 18:20:00 -03:00
-modified: 2021-08-26 18:20:00 -03:00
 tags: [robo 3t, instalando, linux]
+categories: [Linux, Robo 3T]
 description: Como o Robo 3T ainda não é distribuído via flatpack que é a loja oficial de aplicativos do elementaryOS e que eu tenho curtindo bastante.
 ---
 Como o Robo 3T [ainda não é distribuído via flatpack](https://github.com/Studio3T/robomongo/issues/1531) que é a loja oficial de aplicativos do elementaryOS, e que eu tenho curtindo bastante, resolvi fazer esse tutorial, sei que tem um monte desse tutorial por ai pesquisando no Google, mas é porque quero ter esses passos comigos pra consulta pessoal também, sem ter que ficar procurando ou favoritando.

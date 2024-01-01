@@ -1,8 +1,8 @@
 ---
 title: Como exportar dados do mongo para CSV e importar para o PostgreSQL
 date: 2021-07-27 10:34:00 -03:00
-modified: 2021-07-27 10:34:00 -03:00
 tags: [mongodb, dados, csv, postgresql, pgsql]
+categories: [Banco de dados, PostgreSQL]
 description: Por causa de uma tarefa que surgiu na empresa, fui procurar formas prática de exportar os dados para CSV do MongoDB.
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Instalando WSL em ambiente corporativo 🐧
 date: 2023-12-29 11:47:00 -03:00
-modified: 2023-12-29 11:47:00 -03:00
 tags: [wsl, linux, windows]
+categories: [Windows, WSL]
 description: A Microsoft Store é bloqueada onde você trabalha? Eis o que fazer
 ---
 

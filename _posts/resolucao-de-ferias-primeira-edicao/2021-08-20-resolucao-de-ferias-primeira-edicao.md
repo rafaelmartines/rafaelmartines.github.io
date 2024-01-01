@@ -1,8 +1,8 @@
 ---
 title: Resolução de férias, primeira edição
 date: 2021-08-20 11:05:00 -03:00
-modified: 2021-08-20 11:05:00 -03:00
 tags: [ferias, edicao, resolucao]
+categories: [Blogging, Resolução]
 description: Hoje oficialmente é meu ultimo dia de férias dos trinta dias a qual a CLT ainda me garante como direito.
 ---
 Hoje oficialmente é meu ultimo dia de férias dos trinta dias a qual a CLT ainda me garante como direito.

@@ -1,8 +1,8 @@
 ---
 title: Como aprendi PHP 🐘
 date: 2021-07-26 21:53:00 -03:00
-modified: 2021-07-26 21:53:00 -03:00
 tags: [hpg, site, php, shtml, anime]
+categories: [PHP]
 description: Quando a internet surgiu, teve um *boom* de sites voltados para animes, os sites eram muito bonitos e eu queria muito fazer um pra mim, dai eu tirava proveito dos sites que hospedavam de graça como o hpG.
 ---
 

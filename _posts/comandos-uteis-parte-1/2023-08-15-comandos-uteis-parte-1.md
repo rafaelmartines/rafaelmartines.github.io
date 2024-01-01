@@ -1,8 +1,8 @@
 ---
 title: Comandos úteis - Parte 1
 date: 2023-08-15 11:38 -03:00
-modified: 2023-08-15 11:38 -03:00
-tags: [windows, comandos, ]
+tags: [windows, comandos ]
+categories: [Windows]
 description: Não mexo nesse sítio desde quando eu migrei para Windows 10 e agora no Windows 11.
 ---
 
