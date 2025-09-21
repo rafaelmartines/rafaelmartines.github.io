@@ -1,23 +1,23 @@
 # O que é necessário para instalar?
 
-* Instalar o docker e o docker-compose:
+* Instalar o podman e o podman-compose:
 
 ## Ubuntu
 
 ```sh
-sudo apt install docker.io docker-compose
+sudo apt install podman podman-compose
 ```
 
 * Subir o container:
 
 ```sh
-docker-compose up -d
+podman-compose --podman-build-args='--format docker' up
 ```
 
 * Entrar no container:
 
 ```sh
-docker exec -it jekyll /bin/sh
+podman exec -it jekyll sh
 ```
 
 * Subir o jekyll com o comando:
