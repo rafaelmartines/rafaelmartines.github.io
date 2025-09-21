@@ -2,7 +2,11 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-  - type: Twitter
+  - type: Bluesky
+    icon: "fa-brands fa-square-bluesky"
+    link: "https://bsky.app/intent/compose?text=TITLE%20URL"
+
+  - type: X
     icon: "fa-brands fa-square-x-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
 
